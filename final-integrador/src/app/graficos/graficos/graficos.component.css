@@ -1,0 +1,9 @@
+.row{
+    text-align-last: center;
+      align-content: center;
+  }
+  .col-sm-4, .col-md-4, .col-lg-4{
+     align-items: center;
+     padding: 2%;
+    
+  }

@@ -15,6 +15,7 @@ import { BackgroundComponent } from './background/background/background.componen
 import { EstudiosComponent } from './estudios/estudios.component';
 import { MisEstudiosComponent } from './mis-estudios/mis-estudios/mis-estudios.component';
 import { MiInfoComponent } from './mi-info/mi-info/mi-info.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MiInfoComponent } from './mi-info/mi-info/mi-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
