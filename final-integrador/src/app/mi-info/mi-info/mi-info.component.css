@@ -1,0 +1,38 @@
+.row{
+    padding: 10px;
+}
+div{
+    text-align: center;
+    
+}
+p{
+    color: aliceblue;
+    display: inline-block;
+    
+}
+p:hover{
+ 
+    color: rgb(0, 195, 255);
+
+}
+#perfil{
+    width: 50%;
+    display: flex;
+    border-radius: 100%;
+    margin: auto;
+}
+#banner{
+
+    display: flex;
+    margin: auto;
+    margin-top:30px ;
+
+}
+
+#texto{
+    display: flex;
+    margin-left: 5%;
+}
+strong:hover{
+    color: rgb(0, 195, 255);
+}
