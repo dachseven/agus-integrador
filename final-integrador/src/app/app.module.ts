@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BorrarComponent } from './component/borrar/borrar.component';
 import { HeaderComponent } from './header/header/header.component';
 import { FooterComponent } from './footer/footer/footer.component';
 import { GraficosComponent } from './graficos/graficos/graficos.component';
@@ -13,11 +11,14 @@ import { DescripcionComponent } from './descripcion/descripcion/descripcion.comp
 import { LoginComponent } from './login/login/login.component';
 import { LogedComponent } from './loged/loged/loged.component';
 import { CrearComponent } from './crear/crear/crear.component';
+import { BackgroundComponent } from './background/background/background.component';
+import { EstudiosComponent } from './estudios/estudios.component';
+import { MisEstudiosComponent } from './mis-estudios/mis-estudios/mis-estudios.component';
+import { MiInfoComponent } from './mi-info/mi-info/mi-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BorrarComponent,
     HeaderComponent,
     FooterComponent,
     GraficosComponent,
@@ -26,7 +27,11 @@ import { CrearComponent } from './crear/crear/crear.component';
     DescripcionComponent,
     LoginComponent,
     LogedComponent,
-    CrearComponent
+    CrearComponent,
+    BackgroundComponent,
+    EstudiosComponent,
+    MisEstudiosComponent,
+    MiInfoComponent
   ],
   imports: [
     BrowserModule,
