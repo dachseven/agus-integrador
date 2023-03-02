@@ -1,10 +1,10 @@
-package com.portfoliofinal.seven;
+package com.portfolio.dach;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SevenApplicationTests {
+class DachApplicationTests {
 
 	@Test
 	void contextLoads() {
