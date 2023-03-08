@@ -16,7 +16,8 @@ import { EstudiosComponent } from './estudios/estudios.component';
 import { MisEstudiosComponent } from './mis-estudios/mis-estudios/mis-estudios.component';
 import { MiInfoComponent } from './mi-info/mi-info/mi-info.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,13 +33,14 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     BackgroundComponent,
     EstudiosComponent,
     MisEstudiosComponent,
-    MiInfoComponent
+    MiInfoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot()
-    HttpClient
+    ,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
