@@ -7,9 +7,7 @@ import { FooterComponent } from './footer/footer/footer.component';
 import { GraficosComponent } from './graficos/graficos/graficos.component';
 import { ExperienceComponent } from './experience/experience/experience.component';
 import { EditarComponent } from './editar/editar/editar.component';
-import { DescripcionComponent } from './descripcion/descripcion/descripcion.component';
 import { LoginComponent } from './login/login/login.component';
-import { LogedComponent } from './loged/loged/loged.component';
 import { CrearComponent } from './crear/crear/crear.component';
 import { BackgroundComponent } from './background/background/background.component';
 import { EstudiosComponent } from './estudios/estudios.component';
@@ -26,9 +24,7 @@ import { HomeComponent } from './home/home.component';
     GraficosComponent,
     ExperienceComponent,
     EditarComponent,
-    DescripcionComponent,
     LoginComponent,
-    LogedComponent,
     CrearComponent,
     BackgroundComponent,
     EstudiosComponent,
