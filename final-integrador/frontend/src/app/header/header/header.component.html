@@ -7,7 +7,8 @@
         />
         <span>Argentina Programa</span>
           <div class="spacer"></div>
-          <button type="button" class="btn btn-light" id="sip" (click)="login()">Ingresar</button>
+          <button type="button" class="btn btn-light" id="sip" (click)="login()" *ngIf="!isLogged">Ingresar</button>
+          <button type="button" class="btn btn-light" id="sip" (click)="onLogOut()"*ngIf="isLogged">salir</button>
           
           <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://instagram.com/dachseven?igshid=YmMyMTA2M2Y=" title="instagram">
             

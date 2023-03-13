@@ -1,12 +1,26 @@
 <app-background></app-background>
-<div class="loginBox"> <img class="user" src="https://pngimg.com/uploads/square/small/square_PNG34.png" height="100px" width="100px">
+
+<div class="loginBox"> <img class="user" src="https://pngimg.com/uploads/square/small/square_PNG34.png" height="100px"
+        width="100px">
     <h3>Sign in here</h3>
-    <form action="login.php" method="post">
-        <div class="inputBox"> <input id="uname" type="text" name="Username" placeholder="Username"> <input id="pass" type="password" name="Password" placeholder="Password"> </div> <input type="submit" name="" value="Login">
-    </form> 
+    <form #f="ngForm" (ngSubmit)="onLogin()"  novalidate>
+        <div class="inputBox">
+            <div>
+            <input id="nombreUsuario" type="email" name="Username" placeholder="nombre" 
+            [(ngModel)]= "nombreUsuario" required>
+            
+            </div>
+            <div>
+            <input id="password" type="password" name="password" placeholder="contraseña" [(ngModel)]="password" required >
+            </div>
+        
+        </div>
+        <button class= "btn btn-outline-light btn-lg px-s" type="submit">login</button>
+       
+    </form>
     <a href="#">Forget Password<br> </a>
     <div class="text-center">
         <p style="color: #15839e;">Sign-Up</p>
     </div>
-    
+
 </div>
