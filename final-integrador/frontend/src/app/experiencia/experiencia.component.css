@@ -2,8 +2,12 @@
     padding: 20px;
 }
 div{
-    background: #a1b5cb;
+    background: #000000;
 }
 h1, h3{
+    color: aliceblue;
     display: inline;
+}
+td{
+    color: aqua;
 }
